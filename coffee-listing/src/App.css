@@ -1,0 +1,37 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  width: 300px;
+}
+
+.card-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.listing-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1em
+}
+
+img {
+  border-radius: 2% / 4%;
+  width: 300px;
+  height: auto;
+}
